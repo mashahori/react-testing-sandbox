@@ -5,7 +5,7 @@ import { Tabs } from "../../components/Tabs";
 
 import { Result } from "../../components/Result";
 
-const mockData = ["1", "2", "3"];
+const mockData = ["/auth", "/error"];
 
 export const Home = () => {
   const [searchValue, setSearch] = useState("");

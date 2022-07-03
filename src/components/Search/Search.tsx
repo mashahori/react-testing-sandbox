@@ -9,7 +9,12 @@ export const Search = ({ handleSubmit }) => {
 
   return (
     <form>
-      <input type="search" name="search" onChange={handleChange} />
+      <input
+        type="search"
+        name="search"
+        value={searchValue}
+        onChange={handleChange}
+      />
       <button type="button" onClick={() => handleSubmit(searchValue)}>
         Поиск
       </button>

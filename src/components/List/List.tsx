@@ -1,9 +1,11 @@
-export const List = ({ data = [] }) => (
+export const List = ({ data = [] }: { data: string[] }) => (
   <>
     {data?.length ? (
       <ul>
         {data.map((el) => (
-          <li key={el}>{el}</li>
+          <li key={el}>
+            <a href={el}>{el}</a>
+          </li>
         ))}
       </ul>
     ) : null}

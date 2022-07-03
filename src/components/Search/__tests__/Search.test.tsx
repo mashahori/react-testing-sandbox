@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 
 const onChange = jest.fn();
 
-describe("component tabs", () => {
+describe("component search", () => {
   test("renders component", () => {
     render(<Search handleSubmit={onChange} />);
     const textElement = screen.getByText(/поиск/i);
