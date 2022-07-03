@@ -1,1 +1,1 @@
-export const Result = ({ data }) => <div>{data}</div>;
+export const Result = ({ data = "" }) => <div>result: {data}</div>;

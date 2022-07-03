@@ -6,7 +6,7 @@ import { Routing } from "./pages/Routing";
 function App() {
   return (
     <div className="App">
-      <header></header>
+      <header>learn react</header>
       <main>
         <Routing />
       </main>
